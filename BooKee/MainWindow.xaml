@@ -1,0 +1,29 @@
+﻿<Window x:Class="BooKee.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BooKee"
+        mc:Ignorable="d"
+        Title="Main" Height="728" Width="1280">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <LinearGradientBrush.RelativeTransform>
+                <TransformGroup>
+                    <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                    <RotateTransform Angle="-127.304" CenterY="0.5" CenterX="0.5"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </LinearGradientBrush.RelativeTransform>
+            <GradientStop Color="#FF5433FF" Offset="0"/>
+            <GradientStop Color="#FFA5FECB" Offset="1"/>
+            <GradientStop Color="#FF20BDFF" Offset="0.5"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Button Content="Чат" HorizontalAlignment="Left" Margin="84,80,0,0" VerticalAlignment="Top" Width="200" Height="75" FontSize="32" FontFamily="Segoe Script" Cursor="Hand" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Click="Button_Click_1"/>
+        <Button Content="Задачи" HorizontalAlignment="Left" Margin="84,160.586,0,0" VerticalAlignment="Top" Width="200" Height="75" FontSize="32" FontFamily="Segoe Script" Cursor="Hand" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Click="Button_Click"/>
+
+    </Grid>
+</Window>
